@@ -9,9 +9,9 @@ import "snackbar/dist/snackbar.min.css";
 // https://www.chartjs.org/docs/3.5.0/getting-started/integration.html#bundlers-webpack-rollup-etc
 import Chart from "chart.js/auto";
 
-// TODO: If you plan on hosting this, make sure to change the entire URL below to your own Firebase Firestore database
+
 const API = new FetchWrapper(
-  "https://firestore.googleapis.com/v1/projects/jsdemo-3f387/databases/(default)/documents/YOURNAMESPACEHERE"
+  "https://firestore.googleapis.com/v1/projects/jsdemo-3f387/databases/(default)/documents/shubhamrozers"
 );
 
 const appData = new AppData();
